@@ -1,8 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  let tg = window.Telegram.WebApp;
-  tg.expand(); // صفحه رو فول اسکرین می‌کنه
-
-  document.getElementById("sendMessage").addEventListener("click", function () {
-    tg.sendData("این یک پیام از مینی اپ است!");
-  });
+document.getElementById("start-btn").addEventListener("click", function() {
+    alert("بازی هنوز آماده نیست! اما داری درستش می‌کنی 🚀");
 });
